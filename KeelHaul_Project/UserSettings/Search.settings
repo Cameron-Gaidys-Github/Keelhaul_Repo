@@ -8,6 +8,12 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.310DEAF1" = "terr"
+	"OpenInspectorPreview.310DEAF1" = "0"
+	"currentGroup.310DEAF1" = "all"
+	"last_search.D379D912" = ""
+	"OpenInspectorPreview.D379D912" = "0"
+	"currentGroup.D379D912" = "all"
 }
 providers = {
 	packages = {
@@ -59,6 +65,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"t"
 ]
 searchItemFavorites = [
 ]

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16216 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32467 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
 -name
 AssetImportWorker5
 -projectPath
-D:/Repos/github/kazaaak/Keelhaul_Repo/KeelHaul_Project
+C:/Users/camer/Documents/GitHub/TestKeel/Keelhaul_Repo/KeelHaul_Project
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-50975
-Successfully changed project path to: D:/Repos/github/kazaaak/Keelhaul_Repo/KeelHaul_Project
-D:/Repos/github/kazaaak/Keelhaul_Repo/KeelHaul_Project
+53970
+Successfully changed project path to: C:/Users/camer/Documents/GitHub/TestKeel/Keelhaul_Repo/KeelHaul_Project
+C:/Users/camer/Documents/GitHub/TestKeel/Keelhaul_Repo/KeelHaul_Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,69 @@ D:/Repos/github/kazaaak/Keelhaul_Repo/KeelHaul_Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25696] Host "[IP] 129.21.149.14 [Port] 0 [Flags] 2 [Guid] 3159218052 [EditorId] 3159218052 [Version] 1048832 [Id] WindowsEditor(7,Kazvalech) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1284] Host "[IP] 129.21.78.243 [Port] 0 [Flags] 2 [Guid] 3837872951 [EditorId] 3837872951 [Version] 1048832 [Id] WindowsEditor(7,CameronGaidysLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25696] Host "[IP] 129.21.149.14 [Port] 0 [Flags] 2 [Guid] 3159218052 [EditorId] 3159218052 [Version] 1048832 [Id] WindowsEditor(7,Kazvalech) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1284] Host "[IP] 129.21.78.243 [Port] 0 [Flags] 2 [Guid] 3837872951 [EditorId] 3837872951 [Version] 1048832 [Id] WindowsEditor(7,CameronGaidysLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 18.19 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 10.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Repos/github/kazaaak/Keelhaul_Repo/KeelHaul_Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/camer/Documents/GitHub/TestKeel/Keelhaul_Repo/KeelHaul_Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x249c)
     Vendor:   NVIDIA
-    VRAM:     12129 MB
-    Driver:   31.0.15.4629
+    VRAM:     16177 MB
+    Driver:   31.0.15.5161
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005306 seconds.
-- Loaded All Assemblies, in  0.227 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.010042 seconds.
+- Loaded All Assemblies, in  0.418 seconds
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.180 seconds
-Domain Reload Profiling: 406ms
-	BeginReloadAssembly (75ms)
+- Finished resetting the current domain, in  0.339 seconds
+Domain Reload Profiling: 756ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (85ms)
-		LoadAssemblies (73ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (135ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (84ms)
-			TypeCache.Refresh (82ms)
-				TypeCache.ScanAssembly (74ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (137ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (180ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (341ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (143ms)
+		SetupLoadedEditorAssemblies (272ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (94ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,59 +119,61 @@ Domain Reload Profiling: 406ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.426 seconds
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.746 seconds
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.353 seconds
-Domain Reload Profiling: 778ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.905 seconds
+Domain Reload Profiling: 1649ms
+	BeginReloadAssembly (185ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (271ms)
-		LoadAssemblies (196ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (340ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (121ms)
-				TypeCache.ScanAssembly (112ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (354ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (906ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (263ms)
+		SetupLoadedEditorAssemblies (723ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (203ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (614ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3573.
-Memory consumption went from 123.6 MB to 123.5 MB.
-Total: 1.957100 ms (FindLiveObjects: 0.147100 ms CreateObjectMapping: 0.060200 ms MarkObjects: 1.681600 ms  DeleteObjects: 0.067200 ms)
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.4 KB). Loaded Objects now: 3575.
+Memory consumption went from 123.4 MB to 123.4 MB.
+Total: 4.532700 ms (FindLiveObjects: 0.386500 ms CreateObjectMapping: 0.159000 ms MarkObjects: 3.826000 ms  DeleteObjects: 0.160000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -179,62 +185,885 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ScoreManager.cs: 8bf37ad2a0e5ee64fa29f25e7049ed24 -> 2117df56b7ba23abd331d761e713022a
+========================================================================
+Received Import Request.
+  Time since last request: 10648.504473 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Items/Hammer_Arm_Combo.prefab
+  artifactKey: Guid(160ac283519f87049bd268d860865283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Items/Hammer_Arm_Combo.prefab using Guid(160ac283519f87049bd268d860865283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74837574708c224761adb62c163d68e') in 0.330553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 26.450965 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/Palm Plant_A.prefab
+  artifactKey: Guid(2bd62d3e7e3abeb45bc33073384b36c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/Palm Plant_A.prefab using Guid(2bd62d3e7e3abeb45bc33073384b36c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ea70652c437e89d5efeb76728a8ab9') in 0.022604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/palmPlant_Double.prefab
+  artifactKey: Guid(33ead468dee83214bba73f3e602234cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/palmPlant_Double.prefab using Guid(33ead468dee83214bba73f3e602234cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862902a7b0fe6d7aa2292b5656ac5166') in 0.026255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 8.925871 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/d_Pillars_BaseColor.png
+  artifactKey: Guid(f79d50e0929c0db4b8e70e303ad1095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/d_Pillars_BaseColor.png using Guid(f79d50e0929c0db4b8e70e303ad1095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1b2ecf6f4f3569ac11dd9830509301') in 0.046984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/d_Pillars_Normal.png
+  artifactKey: Guid(c88f5f2513abfea4c900372c1c7f481d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/d_Pillars_Normal.png using Guid(c88f5f2513abfea4c900372c1c7f481d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dafdf3eac9b003aa0bcf8ebf40591b8') in 0.035737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.040338 seconds.
+  path: Assets/Stylized Pirate Asset Set/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Asset Set/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c2db80260ecec3b7808feafd3572e7') in 0.003450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 38.386968 seconds.
+  path: Assets/Stylized Pirate Asset Set/TerrainData/TerrainDefault_MS.mat
+  artifactKey: Guid(22ecdfd0490638f47bbef9a0d853cf5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/TerrainData/TerrainDefault_MS.mat using Guid(22ecdfd0490638f47bbef9a0d853cf5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b395bf462fb51e82637e868ab3cc8d67') in 0.113654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/Palm Plants/small plant c.mtl
+  artifactKey: Guid(7f13e9da487bfe44f8f15a79492dde3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/Palm Plants/small plant c.mtl using Guid(7f13e9da487bfe44f8f15a79492dde3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df3e0e706f5d57e7f8db6d9cef5960e3') in 0.013325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Medium_Rock_B.prefab
+  artifactKey: Guid(19f67bc314c270544ab73106708112e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Medium_Rock_B.prefab using Guid(19f67bc314c270544ab73106708112e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44fb192537e7ee45236aa415bb940e96') in 0.027851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Items/Hammer.mat
+  artifactKey: Guid(b4482442ceba166498868d11a27b68e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Items/Hammer.mat using Guid(b4482442ceba166498868d11a27b68e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be328e8a8f2dbd86dc6d2f9abea6deb9') in 0.013416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Hammer
+  artifactKey: Guid(701fc939796ea2349958658998bd9103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Hammer using Guid(701fc939796ea2349958658998bd9103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47fc4e6b92b532af443bf729c13dbb18') in 0.021183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Stylized Pirate Asset Set/Scenes/MiniDemo/LightingData.asset
+  artifactKey: Guid(09f87a6361032f64c8f6180a725942bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Scenes/MiniDemo/LightingData.asset using Guid(09f87a6361032f64c8f6180a725942bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8ce87b9d98d49d356b8fec09f70cc2a') in 0.016053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized Pirate Asset Set/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(34f556d724b1bbf4097ca6220db2c581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/TutorialInfo/Icons/Help_Icon.png using Guid(34f556d724b1bbf4097ca6220db2c581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c94e65075afdf423c90c5ca4c3a3be4') in 0.067665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/Clover_A.prefab
+  artifactKey: Guid(ef32e5a3ea31f3843a101aafb20b1b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/Clover_A.prefab using Guid(ef32e5a3ea31f3843a101aafb20b1b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9247d2620cac40027559bce4520d17d') in 0.018524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Beams
+  artifactKey: Guid(c65bb41274822f2468e088fc189b1d24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Beams using Guid(c65bb41274822f2468e088fc189b1d24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e486ee9ed1831014f4ebae959308d84') in 0.010756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Items/Shelf_B.mat
+  artifactKey: Guid(6d76931e5fa9d3f448282d4d131efa77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Items/Shelf_B.mat using Guid(6d76931e5fa9d3f448282d4d131efa77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '547972b5a1a23d4d17ebbf38fd90bd5e') in 0.013243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Roof_Beam.prefab
+  artifactKey: Guid(e92dff89b959a254492860f8ee0ecf84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Roof_Beam.prefab using Guid(e92dff89b959a254492860f8ee0ecf84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dcf1c8d25942aa689c2284fc9012f51') in 0.018601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Door
+  artifactKey: Guid(3a20406717b9b6a439e91fa751f622e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Door using Guid(3a20406717b9b6a439e91fa751f622e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29235ebacf974efa40a444d8c6ac8312') in 0.011097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Terrain/RoughSand_terrain.terrainlayer
+  artifactKey: Guid(fba47ec3331ac3e43a21eb0c62ad200c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Terrain/RoughSand_terrain.terrainlayer using Guid(fba47ec3331ac3e43a21eb0c62ad200c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bf1833f34fb679959efcfb57fd1bde9') in 0.022153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/WaterPlane/water_A.png
+  artifactKey: Guid(1dfd578c085f7174b9f517b556bd8c17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/WaterPlane/water_A.png using Guid(1dfd578c085f7174b9f517b556bd8c17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9614182c893e8a92e79944d525d13927') in 0.042820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Door/door_Door_BaseColor.png
+  artifactKey: Guid(e39c54e028aa26247ad0ab5f2cf3c275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Door/door_Door_BaseColor.png using Guid(e39c54e028aa26247ad0ab5f2cf3c275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe352cacfdf5fd4424494cc2b4965bc9') in 0.050480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Items/Wooden_Table.prefab
+  artifactKey: Guid(e8124b6be18c6eb44ae633fbdfe09ea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Items/Wooden_Table.prefab using Guid(e8124b6be18c6eb44ae633fbdfe09ea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b525b253de138099f81a4cbca57c060') in 0.016451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized Pirate Asset Set/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c7a82ccb35678a91e71d6ec78cc28e2') in 0.018226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Items/Hook_arm_Combo.prefab
+  artifactKey: Guid(139d4720e25da4948815c66727bd4332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Items/Hook_arm_Combo.prefab using Guid(139d4720e25da4948815c66727bd4332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4da37f05375a11be5a57520b0c82df0') in 0.018850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Scroll/Scroll_Scroll_int_initialShadingGroup_Normal.png
+  artifactKey: Guid(99b43363860214941946ecf3c2dfad0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Scroll/Scroll_Scroll_int_initialShadingGroup_Normal.png using Guid(99b43363860214941946ecf3c2dfad0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba70dbc7c47a2eaa826f2b1c24f18548') in 0.047018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Stylized Pirate Asset Set/Settings/Stylized_Pirate_HDRP_Settings.asset
+  artifactKey: Guid(40d8db5923354c64d854d41cdb5f9f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Settings/Stylized_Pirate_HDRP_Settings.asset using Guid(40d8db5923354c64d854d41cdb5f9f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c08a5f177d163310c3deb62e7c45cf2') in 0.015025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/Palm Plants/PalmPlant_B.mtl
+  artifactKey: Guid(96900e0ee27970e4da6229321065b8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/Palm Plants/PalmPlant_B.mtl using Guid(96900e0ee27970e4da6229321065b8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9133ca6d819f88d01d00e0ae7f633e8d') in 0.012045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Stylized Pirate Asset Set/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f78dc1fe80c6e461452632b6c2ba8b2c') in 0.011086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Stairs/stairs_Stairs_MaskMap.png
+  artifactKey: Guid(815a75cefc7e6ba4cbbaaabe0d2d2294) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Stairs/stairs_Stairs_MaskMap.png using Guid(815a75cefc7e6ba4cbbaaabe0d2d2294) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c47fc59236a6f860712f63d5eb86edcd') in 0.038130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Medium_Rock_C.prefab
+  artifactKey: Guid(c8409111118b1504f8e081160a4ed727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Medium_Rock_C.prefab using Guid(c8409111118b1504f8e081160a4ed727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af49fe410f7f6cab0667b3c1931e3cc6') in 0.019732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Items/Wood Plank.prefab
+  artifactKey: Guid(e548d75c8014f8149aaf5b2e7c9a0758) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Items/Wood Plank.prefab using Guid(e548d75c8014f8149aaf5b2e7c9a0758) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '164f7483c3374806adefd0b155457617') in 0.015415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Roof Large/Shop_solo_Large_Roof_BaseColor.png
+  artifactKey: Guid(15c2598a98593654c9a240d563f5ae8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Roof Large/Shop_solo_Large_Roof_BaseColor.png using Guid(15c2598a98593654c9a240d563f5ae8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5aa22c124f36be27195d9d308ce2792a') in 0.036065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Roof Small/Shop_solo_Small_Roof_Normal.png
+  artifactKey: Guid(7dc75dec737c29d42b033801249672c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Roof Small/Shop_solo_Small_Roof_Normal.png using Guid(7dc75dec737c29d42b033801249672c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b76115911e67a5a33307a89c8bc01158') in 0.033812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/LeafPlant_Clover_A/Leaf_Plant_Clover_export_blinn1SG_BaseColor.png
+  artifactKey: Guid(e75e8931cdc123c4db1911f11841b28d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/LeafPlant_Clover_A/Leaf_Plant_Clover_export_blinn1SG_BaseColor.png using Guid(e75e8931cdc123c4db1911f11841b28d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa914e2175bd36e50cca1b6446525684') in 0.039809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Spyglass/Spyglass_obj.obj
+  artifactKey: Guid(1669855af85f67b42b918cda55cb6ab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Spyglass/Spyglass_obj.obj using Guid(1669855af85f67b42b918cda55cb6ab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7065746bede80cd6ba2d94f2eeea583') in 0.060805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Window/Shop_solo_Window_MaskMap.png
+  artifactKey: Guid(2cc6d18a86b4a174382c33377584740f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Window/Shop_solo_Window_MaskMap.png using Guid(2cc6d18a86b4a174382c33377584740f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b23192603b20ab415a9ce60bde1466b2') in 0.041533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Rocks/Medium/Rocks_autosave_0.mtl
+  artifactKey: Guid(873c02effd048d2469fe02ffad22e5cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Rocks/Medium/Rocks_autosave_0.mtl using Guid(873c02effd048d2469fe02ffad22e5cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e293eb400c1c75381b76b8aea62ab6e') in 0.014217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items
+  artifactKey: Guid(21d903e6b5abe0040bc10c00440f4c19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items using Guid(21d903e6b5abe0040bc10c00440f4c19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b23810bd05bcf2a56ffed885bbfede90') in 0.013119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/Clover_B.prefab
+  artifactKey: Guid(d07957d55df5400468d913620f6a32cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/Clover_B.prefab using Guid(d07957d55df5400468d913620f6a32cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '911b17b6d7c1acafb9e933342f5afb9a') in 0.020909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Floor/Shop_solo_Floor_BaseColor.png
+  artifactKey: Guid(4526c1c16aaadbb4c8853c00dc911f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Floor/Shop_solo_Floor_BaseColor.png using Guid(4526c1c16aaadbb4c8853c00dc911f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f741d4570097353be34f0e6adebfc031') in 0.039977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Shelves/Table_Shelves_uved_Shelf_B_BaseColor.png
+  artifactKey: Guid(27bf2c2103809ad40b91c5344a28449e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Shelves/Table_Shelves_uved_Shelf_B_BaseColor.png using Guid(27bf2c2103809ad40b91c5344a28449e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50504e3e097b1fdfb5594afb30dcbe66') in 0.038520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Ingot_Plank/Wood Plank.obj
+  artifactKey: Guid(ccfc8560f8c1e3e42b06c1b9f5a0ac00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Ingot_Plank/Wood Plank.obj using Guid(ccfc8560f8c1e3e42b06c1b9f5a0ac00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77b8c35f98793b981d8e62f4e8e1bcb2') in 0.028689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Items/Compass 1.mat
+  artifactKey: Guid(4488743bd418ab04ba22f8cb7d46a288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Items/Compass 1.mat using Guid(4488743bd418ab04ba22f8cb7d46a288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab547b74912bf14584d1ac42a9d988bc') in 0.015863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/LeafPlant_Clover_A
+  artifactKey: Guid(94c32e8e77e224a49b1e1791d146a162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/LeafPlant_Clover_A using Guid(94c32e8e77e224a49b1e1791d146a162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b964e455565165b158d5ac07277d549d') in 0.013869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Building/Balony_main.mat
+  artifactKey: Guid(968bc3677ec175843af5b73b297300d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Building/Balony_main.mat using Guid(968bc3677ec175843af5b73b297300d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bec14b910b4bf45b2a61d11bbb27383') in 0.014111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Building
+  artifactKey: Guid(3e1fdb8dc42812742be554ee8fec158a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Building using Guid(3e1fdb8dc42812742be554ee8fec158a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cea4f74a19d0d21d083357266b16eeb') in 0.016082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Stylized Pirate Asset Set/Presets
+  artifactKey: Guid(558255460b74ec04fa70b5570e9327bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Presets using Guid(558255460b74ec04fa70b5570e9327bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4810b44adc91d02c1fde9c9d3ab5c24') in 0.012562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Building/Floor.mat
+  artifactKey: Guid(5fd67c00b4ccef540a949e391acb570a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Building/Floor.mat using Guid(5fd67c00b4ccef540a949e391acb570a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a96a9c82292ce25cb1f3c8fb962f498') in 0.015195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/Leafy Plant.prefab
+  artifactKey: Guid(72b56701cfa864c4d9891196fdedf0bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/Leafy Plant.prefab using Guid(72b56701cfa864c4d9891196fdedf0bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d06edac0362a3a7f3a5daf563991617') in 0.015584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Rocks/Medium/Rock_A-C_textures
+  artifactKey: Guid(c5de6a6e90ca77d42b807e87939c9171) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Rocks/Medium/Rock_A-C_textures using Guid(c5de6a6e90ca77d42b807e87939c9171) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac0705f7cb9b81c2e9b80425c6a61853') in 0.010512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Sand/SandSmooth_height.png
+  artifactKey: Guid(1298d009b083f1c46a9116edf08b9b08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Sand/SandSmooth_height.png using Guid(1298d009b083f1c46a9116edf08b9b08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c03cfb2754ab93862d84fc2ea1347cef') in 0.039504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Items/Arm_base.prefab
+  artifactKey: Guid(352f09788bf23c44ba37f0aa0ddf8605) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Items/Arm_base.prefab using Guid(352f09788bf23c44ba37f0aa0ddf8605) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f58c5e801b109854d83e5c486a51322') in 0.015958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Door.prefab
+  artifactKey: Guid(760f448074c4ad64a85b9ceb74efbe1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Door.prefab using Guid(760f448074c4ad64a85b9ceb74efbe1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9300b889834d8442db4216be8f2bf413') in 0.018715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/Palm Plants/Palm Plant_A.obj
+  artifactKey: Guid(10b713a586080664a89a8b8961e96c2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/Palm Plants/Palm Plant_A.obj using Guid(10b713a586080664a89a8b8961e96c2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c0d4207ba0026844b7a168a005a9502') in 0.024321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Items/Table_Shelving_mat.mat
+  artifactKey: Guid(230cf1e77cb81ec49b8d46be590eca80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Items/Table_Shelving_mat.mat using Guid(230cf1e77cb81ec49b8d46be590eca80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bdb2b05ae9ddf22046bee81ff0a5b558') in 0.014707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Rocks/Medium/Rock_A-C_textures/initialShadingGroup_Normal_OpenGL.png
+  artifactKey: Guid(fc77482c5c649704cbfe55e5372b52f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Rocks/Medium/Rock_A-C_textures/initialShadingGroup_Normal_OpenGL.png using Guid(fc77482c5c649704cbfe55e5372b52f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44a06c9ce8897204cc17cee26c8935ac') in 0.033695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/d_Main_Normal.png
+  artifactKey: Guid(720b1d9ba749009438363cc266d55738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/d_Main_Normal.png using Guid(720b1d9ba749009438363cc266d55738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e61f95b01bb571f25344e06b84c5950c') in 0.035659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs
+  artifactKey: Guid(e3966d59afb112546b29111eb369ae0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs using Guid(e3966d59afb112546b29111eb369ae0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8eacf12f1fdf951e80c524845e2b1f3') in 0.014789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Building/Walls.mat
+  artifactKey: Guid(c8d01f299dfe23442b0fe210ca2ee09f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Building/Walls.mat using Guid(c8d01f299dfe23442b0fe210ca2ee09f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bebfc521f02e3bc63f405376a4371edf') in 0.013447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Hand Base
+  artifactKey: Guid(989c8777a781d994da4ca66bd7a92d30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Hand Base using Guid(989c8777a781d994da4ca66bd7a92d30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b04a657b8857bf352f68c46a3a4d9348') in 0.013395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Building/Roof Support.mat
+  artifactKey: Guid(c9cb8a308c1a64644b595c8dc5bf606c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Building/Roof Support.mat using Guid(c9cb8a308c1a64644b595c8dc5bf606c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'baf0803742d5887aa0913738b68f157c') in 0.014650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Items/DeliveryCrate_mat.mat
+  artifactKey: Guid(2be60b998ac94b642b5281980306e82e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Items/DeliveryCrate_mat.mat using Guid(2be60b998ac94b642b5281980306e82e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f6256aca144fc5e97f56c04155269dd') in 0.013741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Shelves/Table_Shelves_uved_Shelf_A_BaseColor.png
+  artifactKey: Guid(4da9c6d01e6a8d246b99d9b97a1f1f46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Shelves/Table_Shelves_uved_Shelf_A_BaseColor.png using Guid(4da9c6d01e6a8d246b99d9b97a1f1f46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21c034315b75f61e9273a4e71c6771d4') in 0.036103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/Palm Plants/small_veg_mayaExportbC_blinn4SG_Normal.png
+  artifactKey: Guid(7694d5558cb3c4743b80dc4c80b16e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/Palm Plants/small_veg_mayaExportbC_blinn4SG_Normal.png using Guid(7694d5558cb3c4743b80dc4c80b16e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4945a11bac56e503de81fa3b7eec3f65') in 0.036980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/shop_outer_substance_export.obj
+  artifactKey: Guid(332989871f99707448e8014126cb0555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/shop_outer_substance_export.obj using Guid(332989871f99707448e8014126cb0555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00ad658b19b21a810bfc81692050d189') in 0.061702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Scroll/Scroll_Scroll_int_initialShadingGroup_MaskMap.png
+  artifactKey: Guid(2d8778d3152ce384c834e5e39cd7a970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Scroll/Scroll_Scroll_int_initialShadingGroup_MaskMap.png using Guid(2d8778d3152ce384c834e5e39cd7a970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d773d76fda2fdf1721700cc724f24ea') in 0.035863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/palmPlant_Double.prefab
+  artifactKey: Guid(33ead468dee83214bba73f3e602234cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Vegetation/palmPlant_Double.prefab using Guid(33ead468dee83214bba73f3e602234cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '912cbdcf6cd9165a8c591a059b792ad1') in 0.022646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Hook/Hook_final_geo.obj
+  artifactKey: Guid(479d153e680409b41b021062bde0894c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Hook/Hook_final_geo.obj using Guid(479d153e680409b41b021062bde0894c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b52cb9b26eaac0b9459d698475d71caa') in 0.028840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Proto/Grid.mat
+  artifactKey: Guid(1f0ffd488de796a40bac944c97da9f9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Proto/Grid.mat using Guid(1f0ffd488de796a40bac944c97da9f9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd07460b9d14626853c0dd39d1d4a233') in 0.015164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Rocks/Medium/Rock_A-C_textures/small_rocks_retopoed_Uved_smallRocks_MaskMap.png
+  artifactKey: Guid(36154b997b964a844ade5b3ad984a0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Rocks/Medium/Rock_A-C_textures/small_rocks_retopoed_Uved_smallRocks_MaskMap.png using Guid(36154b997b964a844ade5b3ad984a0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2bf5f7f8b1bc452e6724fb3a7a580e9') in 0.035611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized Pirate Asset Set/Scenes/Asset_Lineup/PostProcessing Profile 1.asset
+  artifactKey: Guid(0216ed7141e210a46bb6c8dd6807daca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Scenes/Asset_Lineup/PostProcessing Profile 1.asset using Guid(0216ed7141e210a46bb6c8dd6807daca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e68e26007aad39c338cde0088816299') in 0.012459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/LeafPlant_Clover_A/Leaf_Clover.obj
+  artifactKey: Guid(0eb09c9d31e7fd443a9bf50a5c0079b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/LeafPlant_Clover_A/Leaf_Clover.obj using Guid(0eb09c9d31e7fd443a9bf50a5c0079b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '811897dabcd258cf7ed80c1fecedfa52') in 0.030163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Outer Beams/Shop_solo_Outer_Beams_BaseColor.png
+  artifactKey: Guid(c8f9d4370dfd8b843a0784f1d59331c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Building/Outer Beams/Shop_solo_Outer_Beams_BaseColor.png using Guid(c8f9d4370dfd8b843a0784f1d59331c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e78cc800332cb3bf0f2a54f8dfa46156') in 0.039338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Items/Ingot.prefab
+  artifactKey: Guid(75d106137f2aa074e9a893ecf1beaeca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Items/Ingot.prefab using Guid(75d106137f2aa074e9a893ecf1beaeca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '482dd6121724a379b1031f3af95757c7') in 0.017711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Stylized Pirate Asset Set/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f5db3994106d565f453862c310aee10') in 0.011125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Delivery Crate/Crate_Door_Base.fbx
+  artifactKey: Guid(1d0aa458abd9caa4b8b0f5a2589e22a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Delivery Crate/Crate_Door_Base.fbx using Guid(1d0aa458abd9caa4b8b0f5a2589e22a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbacedd5aa188194d68e8b292f05d222') in 0.031621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Rocks/Medium
+  artifactKey: Guid(a5aa6b053dc4f2c47987e8d738846a2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Rocks/Medium using Guid(a5aa6b053dc4f2c47987e8d738846a2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4209f7a89b8507bb6fe703a46a521088') in 0.011882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Environmental/Leaf_Clover_mat.mat
+  artifactKey: Guid(8f01264e6da224843a6ac3fdd9482f32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Environmental/Leaf_Clover_mat.mat using Guid(8f01264e6da224843a6ac3fdd9482f32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '248b67ed8aeb0d55ee24e2fbddc2649e') in 0.017852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/d_Pillars_MaskMap.png
+  artifactKey: Guid(41ddb0bb020427d45b4c75696119445b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/d_Pillars_MaskMap.png using Guid(41ddb0bb020427d45b4c75696119445b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a1f484e473945d0b0f0902732c7f69e') in 0.035770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Peg Leg
+  artifactKey: Guid(857028a6172fbe441865cbc1ee34c5a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Peg Leg using Guid(857028a6172fbe441865cbc1ee34c5a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41dbeeb8d3fcc92642562aa6e3f010ec') in 0.012429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Roof_Full.prefab
+  artifactKey: Guid(fb26891a8c8a6ea48a62081884312ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Roof_Full.prefab using Guid(fb26891a8c8a6ea48a62081884312ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '989827645e4f8f8940956c24e7c916bc') in 0.014643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Workbench/workbench_Unwrap_lambert1_BaseColor.png
+  artifactKey: Guid(ea91707ee01122549934e1efc475f2f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Workbench/workbench_Unwrap_lambert1_BaseColor.png using Guid(ea91707ee01122549934e1efc475f2f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a40a675d9f687c112415fcd6db202f69') in 0.036226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/LeafPlant_Clover_A/Leaf_Plant_Clover_export_blinn1SG_MaskMap.png
+  artifactKey: Guid(9bbb80241a911a84aa111d96461ae9ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Vegetation/LeafPlant_Clover_A/Leaf_Plant_Clover_export_blinn1SG_MaskMap.png using Guid(9bbb80241a911a84aa111d96461ae9ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd53f4388b5c25a95a58e566e8830dbb') in 0.040728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Stylized Pirate Asset Set/TerrainData/New Terrain 2.asset
+  artifactKey: Guid(782a48491701d5b40a92ebfdcca44759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/TerrainData/New Terrain 2.asset using Guid(782a48491701d5b40a92ebfdcca44759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6464e975b0da405c8e2da57a9228b01') in 0.033536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Building/Roof Small.mat
+  artifactKey: Guid(f6cf707492e327e47bbbda44de32259e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Building/Roof Small.mat using Guid(f6cf707492e327e47bbbda44de32259e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91b604cee8f94105672d2c8dab27bcfd') in 0.015562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Master Stack/Vegetation_MasterStack.shadergraph
+  artifactKey: Guid(bab20185f88324a458210ed49cc48b48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Master Stack/Vegetation_MasterStack.shadergraph using Guid(bab20185f88324a458210ed49cc48b48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'add0c6dbf31fdbbea324863b4b1faa5c') in 0.012522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Wall_Roof_normal.prefab
+  artifactKey: Guid(dcdab5f42fc6ba448bec5beaea53f0ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Prefabs/Environmental/Wall_Roof_normal.prefab using Guid(dcdab5f42fc6ba448bec5beaea53f0ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46b3a31dced8e780a4cda8340194a4e9') in 0.017983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Spyglass
+  artifactKey: Guid(68bc2dc0e7e36c84ca3e50afbfbc75e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Spyglass using Guid(68bc2dc0e7e36c84ca3e50afbfbc75e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d47addf4dbd524de95e8bf48b6810f8') in 0.013387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/d_Pillars_BaseColor.png
+  artifactKey: Guid(f79d50e0929c0db4b8e70e303ad1095d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Environments/Balcony/d_Pillars_BaseColor.png using Guid(f79d50e0929c0db4b8e70e303ad1095d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82e7edc62deeefbfc761745f75044f16') in 0.038372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Stylized Pirate Asset Set/Art Assets/Items/Scroll
+  artifactKey: Guid(955f6d029fec62b4eb2fb888e1c4b1a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Art Assets/Items/Scroll using Guid(955f6d029fec62b4eb2fb888e1c4b1a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '588dff573b4c6cadd3d61314c5651c56') in 0.013846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Stylized Pirate Asset Set/Materials/Items/Workbench 1.mat
+  artifactKey: Guid(5600ed0daddec7a43b1e1df595620457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Materials/Items/Workbench 1.mat using Guid(5600ed0daddec7a43b1e1df595620457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5dcf99c0427e746dbabb5aa7bde09576') in 0.020167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized Pirate Asset Set/Presets/NormalTexture.preset
+  artifactKey: Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Stylized Pirate Asset Set/Presets/NormalTexture.preset using Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c4ddcafd49eaf9ac105f9292b1f6c58') in 0.018160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.321 seconds
-Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.549 seconds
+Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.551 seconds
-Domain Reload Profiling: 871ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  1.409 seconds
+Domain Reload Profiling: 1955ms
+	BeginReloadAssembly (201ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (205ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (335ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (552ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1410ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (253ms)
+		SetupLoadedEditorAssemblies (791ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (189ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (653ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 5.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 124.6 MB to 124.5 MB.
-Total: 2.088300 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.073600 ms MarkObjects: 1.824900 ms  DeleteObjects: 0.031900 ms)
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (430.8 KB). Loaded Objects now: 3590.
+Memory consumption went from 129.5 MB to 129.1 MB.
+Total: 5.325700 ms (FindLiveObjects: 0.328200 ms CreateObjectMapping: 0.092200 ms MarkObjects: 4.623300 ms  DeleteObjects: 0.280500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -246,7 +1075,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ScoreManager.cs: 978f2add6d72472d5ee80e41aa7d6e21 -> 8bf37ad2a0e5ee64fa29f25e7049ed24
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
