@@ -134,6 +134,7 @@
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\WoodsLifestyle\TextureSystem.txt" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\Palm Trees\Materials\Standard 2-Sided.shader" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Common.cginc" />
@@ -143,10 +144,12 @@
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\MotionBlur.shader" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\#NVJOB Water Shaders V2\license_unity.txt" />
+    <None Include="Assets\WoodsLifestyle\NOTES.txt" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Bloom.shader" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
     <None Include="Assets\#NVJOB Water Shaders V2\license_nvjob.txt" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\WoodsLifestyle\VERSION.txt" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\DepthOfField.shader" />

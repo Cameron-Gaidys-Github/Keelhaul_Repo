@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 869.3334
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 72
+  controlID: 17
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 254
     height: 519.3333
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 73
+  controlID: 18
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,7 +346,7 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_SearchFilter:
-    m_NameFilter: main
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -356,24 +356,24 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/#NVJOB Water Shaders V2/Example Scenes/Scenes
+    - Assets/WoodsLifestyle/Models/Fences/Materials
     m_Globs: []
-    m_OriginalText: main
+    m_OriginalText: 
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 96
   m_LastFolders:
-  - Assets/#NVJOB Water Shaders V2/Example Scenes/Scenes
-  m_LastFoldersGridSize: -1
+  - Assets/WoodsLifestyle/Models/Fences/Materials
+  m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\camer\Documents\GitHub\TestKeel\Keelhaul_Repo\KeelHaul_Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 29}
-    m_SelectedIDs: 349e0000
-    m_LastClickedID: 40500
-    m_ExpandedIDs: 00000000901e00009c1e0000a81e0000bc1e0000ec1e0000101f0000281f0000401f00005c1f0000681f000086840000888400008a8400008c8400008e84000090840000149e00001c9e0000209e00002c9e0000349e000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 541}
+    m_SelectedIDs: a4630000
+    m_LastClickedID: 25508
+    m_ExpandedIDs: 00000000ec5f0000ee5f0000f05f0000f25f0000f45f0000f65f0000f85f0000fa5f0000fc5f0000fe5f000000600000026000000460000006600000086000000a6000004c61000076610000e6620000fa620000fc620000026300003c6300004c6300005063000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -401,7 +401,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c1e0000901e00009c1e0000a81e0000bc1e0000ec1e0000101f0000281f0000401f00005c1f0000681f000086840000888400008a8400008c8400008e84000090840000
+    m_ExpandedIDs: 00000000ec5f0000ee5f0000f05f0000f25f0000f45f0000f65f0000f85f0000fa5f0000fc5f0000fe5f000000600000026000000460000006600000086000000a600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -428,7 +428,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -454,7 +454,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &14
@@ -541,9 +541,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0e76feff
-      m_LastClickedID: -100850
-      m_ExpandedIDs: 3c77feff7478feff7878feff8678feffc678feffb88ffeff80cbfeff14e2feffec0cffff060fffff6e12ffff2c13ffffec14ffff2420ffffac57ffffcc61ffffa27cffff307effffee81ffff14ceffffe6810000fa81000012820000caad0000e6af000006b600006ab6000032bf00002ec3000046c30000
+      m_SelectedIDs: 665c0000
+      m_LastClickedID: 23654
+      m_ExpandedIDs: 30fbffff525c0000565c0000de5c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -949,9 +949,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 17.733574, y: -3.865094, z: 19.374226}
+    m_Target: {x: 43.480976, y: 5.2456284, z: 52.159843}
     speed: 2
-    m_Value: {x: 17.733574, y: -3.865094, z: 19.374226}
+    m_Value: {x: 43.480976, y: 5.2456284, z: 52.159843}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -997,13 +997,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.027965078, y: -0.9227206, z: 0.37843564, w: -0.0681668}
+    m_Target: {x: -0.1819167, y: 0.49279556, z: -0.106162615, w: -0.84431154}
     speed: 2
-    m_Value: {x: -0.027964301, y: -0.922695, z: 0.37842512, w: -0.06816491}
+    m_Value: {x: -0.18454948, y: 0.49161273, z: -0.10745223, w: -0.844223}
   m_Size:
-    m_Target: 131.56795
+    m_Target: 64.87867
     speed: 2
-    m_Value: 131.56795
+    m_Value: 65.74152
   m_Ortho:
     m_Target: 0
     speed: 2
