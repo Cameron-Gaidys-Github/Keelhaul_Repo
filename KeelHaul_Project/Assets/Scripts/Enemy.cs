@@ -102,11 +102,7 @@ public class Enemy : MonoBehaviour
 
         if (!alreadyAttacked)
         {
-            /// code an attack here
-            //Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            //rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            //rb.AddForce(transform.forward * 8f, ForceMode.Impulse);
-            ///
+           
 
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
