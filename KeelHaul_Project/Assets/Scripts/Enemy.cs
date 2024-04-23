@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-
-
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
@@ -14,6 +13,10 @@ public class Enemy : MonoBehaviour
     public float health;
 
     public LayerMask whatIsGround, whatIsPlayer;
+
+    public int maxHealth = 100;
+    public int currentHealth;
+    public Slider healthSlider;
 
     // Patrolling 
     public Vector3 walkPoint;
@@ -28,6 +31,13 @@ public class Enemy : MonoBehaviour
     // States
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
+
+    void Start()
+    {
+        currentHealth = maxHealth;
+        healthSlider.maxValue = maxHealth;
+        healthSlider.value = currentHealth;
+    }
 
     private void Awake()
     {
@@ -110,9 +120,22 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        health -= damage;
+        currentHealth -= damage;
+        Health healthScript = GetComponent<Health>();
 
-        if (health <= 0) Invoke(nameof(DestroyEnemy), .5f);
+        if (healthScript != null)
+        {
+            healthScript.health = currentHealth;
+        }
+
+        healthSlider.value = currentHealth;
+        /*Invoke(nameof(DestroyEnemy), .5f)*/
+        if (currentHealth <= 0)
+        {
+            Debug.Log("Enemy died.");
+            gameObject.SetActive(false);
+            healthSlider.gameObject.SetActive(false);
+        }
     }
 
     private void DestroyEnemy()
